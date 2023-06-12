@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CRUD_TODO_SERVER.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CRUD_TODO_SERVER.Controllers
 
@@ -12,6 +13,7 @@ namespace CRUD_TODO_SERVER.Controllers
 
             public string Login(string login,string password)
             {
+                sqliteServices.Sql_get_main_content();
                 return "kek";
             }
       
