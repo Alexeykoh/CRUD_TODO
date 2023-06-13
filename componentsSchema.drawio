@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T18:23:07.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="S64KRzc6p78rAW9QQ1Xa" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T18:45:26.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Y0dMKXT3JrvelDc5kU0A" version="21.3.8" type="github">
   <diagram name="Страница 1" id="6tXET_UQnHRXLjtFdIph">
-    <mxGraphModel dx="3860" dy="1163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3163" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,19 +96,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IGXPedK8rDx9fx1_-4YQ-72" value="AuthPage" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;labelBackgroundColor=none;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="890" y="80" width="350" height="146" as="geometry" />
+          <mxGeometry x="890" y="80" width="430" height="160" as="geometry" />
         </mxCell>
         <mxCell id="IGXPedK8rDx9fx1_-4YQ-73" value="Login-input" style="text;strokeColor=#6D1F00;fillColor=#a0522d;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;" parent="IGXPedK8rDx9fx1_-4YQ-72" vertex="1">
-          <mxGeometry y="26" width="350" height="30" as="geometry" />
+          <mxGeometry y="26" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGXPedK8rDx9fx1_-4YQ-74" value="Password-input" style="text;strokeColor=#6D1F00;fillColor=#a0522d;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;" parent="IGXPedK8rDx9fx1_-4YQ-72" vertex="1">
-          <mxGeometry y="56" width="350" height="30" as="geometry" />
+          <mxGeometry y="56" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IGXPedK8rDx9fx1_-4YQ-75" value="Login / Register-flexButton {send}" style="text;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;" parent="IGXPedK8rDx9fx1_-4YQ-72" vertex="1">
-          <mxGeometry y="86" width="350" height="30" as="geometry" />
+        <mxCell id="IGXPedK8rDx9fx1_-4YQ-75" value="Login {mail&lt;br&gt;} / Register-flexButton {send}" style="text;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;" parent="IGXPedK8rDx9fx1_-4YQ-72" vertex="1">
+          <mxGeometry y="86" width="430" height="44" as="geometry" />
         </mxCell>
         <mxCell id="IGXPedK8rDx9fx1_-4YQ-82" value="ForgotPassword-flexButton {send}" style="text;strokeColor=#3700CC;fillColor=#6a00ff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;" parent="IGXPedK8rDx9fx1_-4YQ-72" vertex="1">
-          <mxGeometry y="116" width="350" height="30" as="geometry" />
+          <mxGeometry y="130" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGXPedK8rDx9fx1_-4YQ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#028090;fontColor=#E4FDE1;fillColor=#F45B69;" parent="1" source="IGXPedK8rDx9fx1_-4YQ-47" target="IGXPedK8rDx9fx1_-4YQ-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -252,7 +252,7 @@
           <mxGeometry y="176" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IGXPedK8rDx9fx1_-4YQ-135" value="Buttons" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-413" y="330" width="160" height="146" as="geometry" />
+          <mxGeometry x="-560" y="775" width="160" height="146" as="geometry" />
         </mxCell>
         <mxCell id="IGXPedK8rDx9fx1_-4YQ-113" value="Submit-button" style="text;strokeColor=#001DBC;fillColor=#0050ef;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;" parent="IGXPedK8rDx9fx1_-4YQ-135" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
