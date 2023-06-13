@@ -11,14 +11,12 @@ namespace CRUD_TODO_SERVER.Controllers
         
             [HttpGet]
 
-            public string Login(string login,string password)
+            public object Login(string login,string password)
             {
-                sqliteServices.Sql_get_main_content();
-                return "kek";
+
+            return sqliteServices.Sql_login(login, password); 
             }
-      
-       
-        
-        
+   
     }
+
 }
