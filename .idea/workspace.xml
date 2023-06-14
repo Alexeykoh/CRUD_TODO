@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39055d76-1e55-4077-be53-b0a1582086aa" name="Changes" comment="refactor: add callback" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2R7HDNnLKUYtTggV0NdGRlqof89" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "devFront",
+    "last_opened_file_path": "D:/FrontEnd/Learning/CRUD_TODO/crudtodo/src/components/shared/sections",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\FrontEnd\\Learning\\CRUD_TODO\\crudtodo\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\FrontEnd\Learning\CRUD_TODO\crudtodo\src\components\shared\sections" />
+      <recent name="D:\FrontEnd\Learning\CRUD_TODO\crudtodo\src\assets\icons\logo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FrontEnd\Learning\CRUD_TODO\crudtodo\src\components" />
+      <recent name="D:\FrontEnd\Learning\CRUD_TODO\crudtodo\src\components\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/crudtodo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39055d76-1e55-4077-be53-b0a1582086aa" name="Changes" comment="" />
+      <created>1686594079303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686594079303</updated>
+      <workItem from="1686594082715" duration="1297000" />
+      <workItem from="1686682099114" duration="14835000" />
+    </task>
+    <task id="LOCAL-00001" summary="doc: add md">
+      <created>1686597995315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686597995315</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init: start CRUD-TODO project">
+      <created>1686689699061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686689699061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactor: reorganize login and reg view elements">
+      <created>1686751993073</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686751993073</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add greeting">
+      <created>1686752174056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752174056</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refactor: change logo">
+      <created>1686752196876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752196876</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add fonts">
+      <created>1686752208133</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752208133</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: change style">
+      <created>1686752243635</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752243635</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add switch to registration">
+      <created>1686752295622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752295622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor: add callback">
+      <created>1686752320550</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686752320550</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="doc: add md" />
+    <MESSAGE value="init: start CRUD-TODO project" />
+    <MESSAGE value="refactor: reorganize login and reg view elements" />
+    <MESSAGE value="feat: add greeting" />
+    <MESSAGE value="refactor: change logo" />
+    <MESSAGE value="feat: add fonts" />
+    <MESSAGE value="feat: change style" />
+    <MESSAGE value="feat: add switch to registration" />
+    <MESSAGE value="refactor: add callback" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: add callback" />
+  </component>
+</project>
