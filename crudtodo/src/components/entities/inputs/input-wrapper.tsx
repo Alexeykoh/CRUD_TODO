@@ -11,10 +11,10 @@ interface InputWrapperProps {
 export const InputWrapper: React.FC<InputWrapperProps> = ({placeholder, inputValue, changeValue, title, type}) => {
     return (
         <>
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col w-64 gap-1">
                 <h4 className={'text-sm'}>{title}</h4>
                 <input
-                    className={(inputValue ? ' border-emerald-400 ' : ' border-red-400 ') + ' border-2 p-2 rounded-md duration-150'}
+                    className={(inputValue ? ' border-sky-300 ' : ' border-sky-100 ') + ' border-2 p-2 rounded-md duration-150 w-full'}
                     placeholder={placeholder}
                     type={type || "text"}
                     value={inputValue}
