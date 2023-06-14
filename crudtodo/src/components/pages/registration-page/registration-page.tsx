@@ -52,7 +52,7 @@ export const RegistrationPage: React.FC<RegistrationPageProps> = props => {
 
     return (
         <>
-            <LoginSectionWrapper title={'Создайте учетную запись'}>
+            <LoginSectionWrapper callbackFn={() => {}} title={'Создайте учетную запись'}>
                 <FlexSection>
                     <InputWrapper
                         title={'Login'}
