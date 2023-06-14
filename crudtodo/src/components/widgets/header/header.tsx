@@ -10,7 +10,7 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = props => {
     return (
         <>
-            <div className={'w-full py-2 px-4 bg-black/75 justify-between items-center'}>
+            <div className={'w-full py-2 px-4 bg-sky-400 justify-between items-center'}>
                 <div className="flex items-center gap-2 ">
                     <Logo logo={iconLogo}/>
                 </div>
