@@ -13,7 +13,7 @@ export const SubmitButton: React.FC<SubmitButtonProps> = props => {
                 onClick={() => {
                     props.onClick()
                 }}
-                className={props.addClass + ' ' + ' px-4 py-2 rounded-md hover:scale-105 duration-75 shadow-md w-fit lowercase font-light'}
+                className={props.addClass + ' ' + ' px-4 py-2 rounded-md hover:scale-105 duration-75 shadow-md w-fit lowercase font-ligh bg-black/75 text-white'}
             >{props.title}</button>
         </>
     );

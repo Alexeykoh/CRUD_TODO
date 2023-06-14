@@ -95,7 +95,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
                                         loginFn(mail, password)
                                     }}
                                     title={'Войти'}
-                                    addClass={'bg-sky-300 '}
+                                    addClass={''}
                                 />
                             </LoginSectionWrapper>
                             :
@@ -149,7 +149,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
                                         registration({mail: mail, password: password, login: login})
                                     }}
                                     title={'Зарегистрироваться'}
-                                    addClass={'bg-sky-300 '}
+                                    addClass={''}
                                 />
                             </RegisterSectionWrapper>
                     }
