@@ -11,9 +11,8 @@ export const Header: React.FC<HeaderProps> = props => {
     return (
         <>
             <div className={'w-full py-2 px-4 bg-black/75 justify-between items-center'}>
-                <div className="flex items-center gap-2 px-2 p-1 rounded-sm bg-white w-fit">
+                <div className="flex items-center gap-2 ">
                     <Logo logo={iconLogo}/>
-                    <p>{'ToDo'}</p>
                 </div>
             </div>
         </>
