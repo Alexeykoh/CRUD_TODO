@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import '../../App.css';
 import {Route, Routes, useNavigate} from "react-router";
 import {AuthPage} from "../pages/auth-page/auth-page";
@@ -11,9 +11,9 @@ import {Layout} from "./layout";
 function App() {
     const navigate = useNavigate();
 
-    function checkIsLogin(){
+    function checkIsLogin() {
         const localLoginData = localStorage.getItem('loginUser')
-        if(localLoginData===null){
+        if (localLoginData === null) {
             navigate('/auth')
         }
     }
