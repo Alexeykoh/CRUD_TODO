@@ -2,8 +2,20 @@
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}",],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: (theme) => ({
+				check: "url('/src/assets/icons/check.svg')",
+			}),
+		},
 	},
 	plugins: [],
+	variants: {
+		extend: {
+			backgroundColor: ["checked"],
+			borderColor: ["checked"],
+			inset: ["checked"],
+			zIndex: ["hover", "active"],
+		},
+	},
 }
 
