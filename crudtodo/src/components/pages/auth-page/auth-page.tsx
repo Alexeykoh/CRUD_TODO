@@ -72,7 +72,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
     return (
         <>
             <section className={'py-8 h-full w-full shrink'}>
-                <div className="flex flex-row gap-8 p-4 h-full rounded-lg">
+                <div className="flex flex-col md:flex-row gap-8 p-4 h-full rounded-lg">
                     <GreetingFeaturesLabel/>
                     {
                         isLoginPage
@@ -82,7 +82,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
                                     setIsLoginPage(false)
                                 }} title={'Вход в учетную запись'}
                             >
-                                <div className="flex gap-4">
+                                <div className="flex flex-col md:flex-row gap-4">
                                     <InputWrapper
                                         title={'Email'}
                                         inputValue={mail}
@@ -112,7 +112,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
                                 }} title={'Создайте учетную запись'}
                             >
                                 <FlexSection>
-                                    <div className="flex gap-4">
+                                    <div className="flex flex-col md:flex-row gap-4">
                                         <InputWrapper
                                             title={'Email'}
                                             inputValue={mail}
@@ -129,7 +129,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
                                     </div>
                                 </FlexSection>
                                 <FlexSection>
-                                    <div className="flex gap-4">
+                                    <div className="flex flex-col md:flex-row gap-4">
                                         <InputWrapper
                                             title={'Пароль'}
                                             inputValue={password}

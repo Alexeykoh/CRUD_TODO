@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39055d76-1e55-4077-be53-b0a1582086aa" name="Changes" comment="refactor: add callback" />
+    <list default="true" id="39055d76-1e55-4077-be53-b0a1582086aa" name="Changes" comment="refactor: add callback">
+      <change afterPath="$PROJECT_DIR$/crudtodo/src/assets/icons/context.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudtodo/src/assets/icons/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/crudtodo/src/assets/icons/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudtodo/src/components/entities/inputs/input-wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crudtodo/src/components/entities/inputs/input-wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudtodo/src/components/pages/auth-page/auth-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crudtodo/src/components/pages/auth-page/auth-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudtodo/src/components/pages/todo-page/todo-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crudtodo/src/components/pages/todo-page/todo-page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudtodo/src/components/shared/labels/greeting-features-label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crudtodo/src/components/shared/labels/greeting-features-label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudtodo/src/components/shared/sections/login-section-wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crudtodo/src/components/shared/sections/login-section-wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudtodo/src/components/shared/sections/register-section-wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/crudtodo/src/components/shared/sections/register-section-wrapper.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,13 +51,13 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "devFront",
-    "last_opened_file_path": "D:/FrontEnd/Learning/CRUD_TODO/crudtodo/src/components/shared/sections",
+    "last_opened_file_path": "/Users/aleksejkohanovic/WebProjects/CRUD_TODO/crudtodo/src/assets/icons",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\FrontEnd\\Learning\\CRUD_TODO\\crudtodo\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "/Users/aleksejkohanovic/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/231.9011.35/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -61,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/crudtodo/src/assets/icons" />
       <recent name="D:\FrontEnd\Learning\CRUD_TODO\crudtodo\src\components\shared\sections" />
       <recent name="D:\FrontEnd\Learning\CRUD_TODO\crudtodo\src\assets\icons\logo" />
     </key>
