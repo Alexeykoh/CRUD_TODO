@@ -146,5 +146,86 @@ namespace CRUD_TODO_SERVER.Services
             }
          return otvet;
         }
+
+        public static object Sql_delete(string name)
+        {
+            bool otvet = false;
+            string sqlExpression = "DELETE  FROM users WHERE name='"+name+"'";
+            using (var connection = new SqliteConnection("Data Source=users_database.db"))
+            {
+                connection.Open();
+
+                SqliteCommand command = new SqliteCommand(sqlExpression, connection);
+
+                int number = command.ExecuteNonQuery();
+
+                Console.WriteLine($"Удалено объектов: {number}");
+                 otvet= true;
+            }
+
+            return otvet;
+        }
+
+        public static object Sql_update(string name, string password)
+        {
+            bool ischeked = false;
+            string sqlExpression = "SELECT * FROM users";
+            using (var connection = new SqliteConnection("Data Source= users_database.db"))
+            {
+                connection.Open();
+
+                SqliteCommand command = new SqliteCommand(sqlExpression, connection);
+                using (SqliteDataReader reader = command.ExecuteReader())
+                {
+                    if (reader.HasRows) // если есть данные
+                    {
+
+                        while (reader.Read())   // построчно считываем данные
+                        {
+                            int x = 0;
+                           
+                            var DBname = reader.GetValue(0);
+                            var DBpassword = reader.GetValue(1);
+
+
+                            x++;
+
+                            if (DBname.ToString() == name )
+                            {
+                                ischeked = true;
+
+                                if (DBpassword.ToString() == password)
+                                {
+                                    ischeked = false;
+
+                                    return false;
+                                
+                                }
+                            }
+                            
+
+                        }
+
+                    }
+                }
+                if (ischeked == true)
+                {
+                    string sqlExpression1 = "UPDATE users SET password='"+password+"' WHERE name='"+name+"'";
+                    using (var connection1 = new SqliteConnection("Data Source= users_database.db"))
+                    {
+                        connection1.Open();
+
+                        SqliteCommand command1 = new SqliteCommand(sqlExpression1, connection1);
+
+                        int number = command1.ExecuteNonQuery();
+
+                        Console.WriteLine($"Обновлено объектов: {number}");
+                    }
+                }
+            }
+
+
+            return true;
+        }
     }
 }

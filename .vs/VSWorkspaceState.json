@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CRUD_TODO_SERVER",
+    "\\CRUD_TODO_SERVER\\Services"
   ],
-  "SelectedNode": "\\CRUD_TODO_SERVER.sln",
+  "SelectedNode": "\\CRUD_TODO_SERVER\\Services\\sqliteServices.cs",
   "PreviewInSolutionExplorer": false
 }

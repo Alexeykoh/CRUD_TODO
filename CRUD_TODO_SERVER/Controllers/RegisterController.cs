@@ -7,7 +7,7 @@ namespace CRUD_TODO_SERVER.Controllers
     [Route("[controller]")]
     public class RegisterController : Controller
     {
-        [HttpPut]
+        [HttpPost]
 
         public object register(string name , string password, string mail)
         {
