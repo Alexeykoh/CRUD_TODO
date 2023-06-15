@@ -12,7 +12,7 @@ function App() {
     const navigate = useNavigate();
 
     function checkIsLogin() {
-        const localLoginData = localStorage.getItem('loginUser')
+        const localLoginData = sessionStorage.getItem('loginUser')
         if (localLoginData === null) {
             navigate('/auth')
         }

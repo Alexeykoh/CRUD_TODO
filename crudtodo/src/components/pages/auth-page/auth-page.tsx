@@ -53,7 +53,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
         }
         if (mail === 'root' && password === 'root') {
             console.warn('root')
-            localStorage.setItem('loginUser', JSON.stringify({user: "root"}))
+            sessionStorage.setItem('loginUser', JSON.stringify({user: "root"}))
             navigate("/")
             return;
         }
