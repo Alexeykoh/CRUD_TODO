@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-16T12:20:48.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vhHaTj2gcX-3KRrFKdsC" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T12:27:43.345Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="v3guX-riYfOxW4Q1LSIT" version="21.4.0" type="github">
   <diagram name="Страница 1" id="7DcVL1mYsy6_ozaHXA0k">
-    <mxGraphModel dx="1327" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="955" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="z3NH9g7h5YoYPxgGSWJu-2" value="date: date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;fontColor=#E4FDE1;" parent="aqClYOJeulZsIv7JIdLj-5" vertex="1">
           <mxGeometry y="150" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z3NH9g7h5YoYPxgGSWJu-3" value="coloIDr: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;fontColor=#E4FDE1;" parent="aqClYOJeulZsIv7JIdLj-5" vertex="1">
+        <mxCell id="z3NH9g7h5YoYPxgGSWJu-3" value="colorID: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;fontColor=#E4FDE1;" parent="aqClYOJeulZsIv7JIdLj-5" vertex="1">
           <mxGeometry y="180" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z3NH9g7h5YoYPxgGSWJu-4" value="isComplete: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;fontColor=#E4FDE1;" parent="aqClYOJeulZsIv7JIdLj-5" vertex="1">
@@ -46,7 +46,7 @@
         <mxCell id="z3NH9g7h5YoYPxgGSWJu-5" value="intervalID: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;fontColor=#E4FDE1;" parent="aqClYOJeulZsIv7JIdLj-5" vertex="1">
           <mxGeometry y="240" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Kma95Rz0bTqf9XjmCafr-1" value="priority: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;fontColor=#E4FDE1;" vertex="1" parent="aqClYOJeulZsIv7JIdLj-5">
+        <mxCell id="Kma95Rz0bTqf9XjmCafr-1" value="priorityID: number" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=0;labelBackgroundColor=none;fontColor=#E4FDE1;" vertex="1" parent="aqClYOJeulZsIv7JIdLj-5">
           <mxGeometry y="270" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aqClYOJeulZsIv7JIdLj-10" value="Category" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;rounded=1;swimlaneFillColor=#000000;" parent="1" vertex="1">
