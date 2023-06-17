@@ -53,6 +53,7 @@ namespace CRUD_TODO_SERVER.Services
                     using (SqliteDataReader reader = command.ExecuteReader())
                     {
                         string otvet = null;
+                        
 
                         if (reader.HasRows) // если есть данные
                         {
@@ -70,7 +71,7 @@ namespace CRUD_TODO_SERVER.Services
                                 if (DBmail.ToString() == mail && DBpassword.ToString() == password)
                                 {
                                     otvet = DBname.ToString();
-                                    break;
+                                    return otvet;
 
                                 }
 
@@ -78,7 +79,7 @@ namespace CRUD_TODO_SERVER.Services
                             }
 
                         }
-                        return otvet;
+                        return false;
                     }
                 }
 
