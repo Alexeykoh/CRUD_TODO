@@ -72,7 +72,7 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
     return (
         <>
             <section className={'py-8 h-full w-full shrink'}>
-                <div className="flex flex-col md:flex-row gap-8 p-4 h-full rounded-lg">
+                <div className="flex flex-col md:flex-row gap-8 h-full rounded-lg">
                     <GreetingFeaturesLabel/>
                     {
                         isLoginPage
@@ -82,21 +82,45 @@ export const AuthPage: React.FC<AuthPageProps> = props => {
                                     setIsLoginPage(false)
                                 }} title={'Вход в учетную запись'}
                             >
-                                <div className="flex flex-col md:flex-row gap-4">
-                                    <InputWrapper
-                                        title={'Email'}
-                                        inputValue={mail}
-                                        changeValue={setMail}
-                                        placeholder={'введите почту'}
-                                    />
-                                    <InputWrapper
-                                        title={'Пароль'}
-                                        inputValue={password}
-                                        changeValue={setPassword}
-                                        placeholder={'введите пароль'}
-                                        type={'password'}
-                                    />
-                                </div>
+                                <ul className={' rounded-lg flex flex-col gap-4'}>
+                                    <li className={'rounded-md w-full'}>
+                                        <div className="flex items-center md:gap-4 p-2 justify-between w-full">
+                                            <div className="flex items-center gap-8 w-10/12 md:w-11/12">
+                                                <input
+                                                    checked={!!mail}
+                                                    type="checkbox"
+                                                    name="checked-demo"
+                                                    className={(!!mail ? ' taskSpin ' : '') + " w-[30px] h-[30px] duration-150 form-tick appearance-none  bg-check border border-gray-300 rounded-md checked:bg-emerald-300 checked:border-transparent focus:outline-none"}
+                                                />
+                                                <InputWrapper
+                                                    title={'Email'}
+                                                    inputValue={mail}
+                                                    changeValue={setMail}
+                                                    placeholder={'введите почту'}
+                                                />
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li className={'rounded-md w-full'}>
+                                        <div className="flex items-center md:gap-4 p-2 justify-between w-full">
+                                            <div className="flex items-center gap-8 w-10/12 md:w-11/12">
+                                                <input
+                                                    checked={!!password}
+                                                    type="checkbox"
+                                                    name="checked-demo"
+                                                    className={(!!password ? ' taskSpin ' : '') + " w-[30px] h-[30px] duration-150 form-tick appearance-none  bg-check border border-gray-300 rounded-md checked:bg-emerald-300 checked:border-transparent focus:outline-none"}
+                                                />
+                                                <InputWrapper
+                                                    title={'Пароль'}
+                                                    inputValue={password}
+                                                    changeValue={setPassword}
+                                                    placeholder={'введите пароль'}
+                                                    type={'password'}
+                                                />
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                                 <SubmitButton
                                     onClick={() => {
                                         loginFn(mail, password)
